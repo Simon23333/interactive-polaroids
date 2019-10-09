@@ -16,9 +16,21 @@ html {
   left: 17em;
   top: 12em;
   transition: all 150ms linear;
-
 }
 
+.polaroid:nth-child(1) {
+  left: 20%;
+  top: 6em;
+  transform: rotate(-16deg);
+  z-index: 1;
+}
+
+.polaroid:nth-child(2) {
+  left: 30%;
+  top: 9em;
+  transform: rotate(5deg);
+  z-index: 3;
+}
 .polaroid > img {
   display: block;
   width: 100%;
